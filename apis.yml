@@ -1,0 +1,32 @@
+aid: utah-agrc
+name: Utah AGRC
+description: "Utah Web API for geocoding Utah addresses"
+url: https://api.mapserv.utah.gov
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: Utah AGRC
+    description: "Utah Web API for geocoding Utah addresses"
+    humanURL: https://api.mapserv.utah.gov
+    baseURL: https://api.mapserv.utah.gov
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://api.mapserv.utah.gov
+common:
+  - type: Website
+    url: https://api.mapserv.utah.gov
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
