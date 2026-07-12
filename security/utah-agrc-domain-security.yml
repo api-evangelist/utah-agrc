@@ -1,0 +1,23 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: api.mapserv.utah.gov
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 28 03:35:31 2026 GMT
+  hsts: true
+  hsts_max_age: 31556926
+domains:
+- domain: utah.gov
+  dnssec: true
+  caa:
+  - 128 issuewild "letsencrypt.org"
+  - 128 iodef "mailto:prodhosting@utah.gov"
+  - 128 issue "letsencrypt.org"
+  - 128 issue "sectigo.com"
+  - 128 issue "amazon.com"
+  - 128 issuewild "sectigo.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
