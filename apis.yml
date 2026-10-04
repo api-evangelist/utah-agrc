@@ -39,7 +39,6 @@ apis:
   - name: Utah AGRC
     description: "Utah Web API for geocoding Utah addresses"
     humanURL: https://api.mapserv.utah.gov
-    baseURL: https://api.mapserv.utah.gov
     tags:
       - Geocoding
     properties:
